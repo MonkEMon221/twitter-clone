@@ -31,14 +31,14 @@ function TweetBox() {
                 <Avatar src="https://i.picsum.photos/id/1012/3973/2639.jpg?hmac=s2eybz51lnKy2ZHkE2wsgc6S81fVD1W2NKYOSh8bzDc"/>
                 <input 
                 onChange = {e => {setTweetMessage(e.target.value)}} 
-                value={tweetMessage} 
+                value = {tweetMessage} 
                 placeholder="What's Happening?" 
                 type= 'text' 
                 maxLength={280}/>
             </div>
                  <input
                   onChange = {e => {setTweetImage(e.target.value)}}
-                  value={tweetImage} 
+                  value = {tweetImage} 
                   className='tweetbox__image' 
                   placeholder="Enter Image URL" 
                   type= 'text'/>

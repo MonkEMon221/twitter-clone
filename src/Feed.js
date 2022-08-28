@@ -24,13 +24,13 @@ function Feed() {
 
         {posts.map( post => (
           <Post 
-          displayName = {post.displayName}
-          userName = {post.userName}
-          verified = {post.verified}
-          text = {post.text}
-          image = {post.image}
-          avatar = {post.avatar}
-        />
+            displayName = {post.displayName}
+            userName = {post.userName}
+            verified = {post.verified}
+            text = {post.text}
+            image = {post.image}
+            avatar = {post.avatar}
+          />
         ))}
     </div>
   )

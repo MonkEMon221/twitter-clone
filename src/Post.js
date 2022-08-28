@@ -35,7 +35,7 @@ function Post(
                     <p>{text}</p>
                 </div>
             </div>
-            <img src={image} alt='img'/>
+            {image && <img src={image} alt='img'/>}
             <div className='post__footer'>
                 <ChatBubbleOutlineIcon className='icon' fontSize='small'/>
                 <RepeatIcon className='icon' fontSize='small'/>

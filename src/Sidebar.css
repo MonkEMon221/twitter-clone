@@ -4,6 +4,7 @@
     min-width: fit-content;
     padding: 20px 20px;
 }
+
 .sidebar>.twitter_icon{
     color: var(--twitter-color);
     margin-left: 20px;

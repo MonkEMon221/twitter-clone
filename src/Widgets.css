@@ -5,6 +5,7 @@
     overflow-y: scroll;
 }
 
+
 .widgets::-webkit-scrollbar{
     display: none;
 }
